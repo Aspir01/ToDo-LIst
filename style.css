@@ -1,0 +1,128 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #0864c6;
+}
+
+p,
+input::placeholder,
+textarea::placeholder,
+input,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    transition: 0.2s;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    width: 50%;
+}
+
+textarea {
+    height: 120px;
+    margin: 15px 0;
+    width: 49.8%;
+    resize: none;
+}
+
+input,
+textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.btns {
+    display: flex;
+    width: 51%;
+    justify-content: space-between;
+}
+
+.btns button {
+    width: 28%;
+    color: white;
+    background-color: #1310b6;
+    box-shadow: 2px;
+}
+
+.btns button:hover {
+    background: rgb(5, 56, 110);
+}
+
+#addTaskBtn {
+    color: white;
+    background-color: #10b64d;
+    width: 28%;
+    height: 50px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#addTaskBtn:hover {
+    background-color: #006f29;
+}
+
+#taskList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.task {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    width: 50%;
+}
+
+.completed {
+    background-color: #11fa86 !important;
+}
+
+.btns.task {
+    padding: 0;
+    width: 100%;
+}
+
+
+.delete {
+    background-color: rgb(158, 36, 36) !important;
+}
+
+.delete:hover {
+    background-color: rgb(107, 10, 10) !important;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
